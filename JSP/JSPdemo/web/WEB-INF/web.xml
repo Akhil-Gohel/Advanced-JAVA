@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>NewServlet</servlet-name>
+        <!--<servlet-class>NewServlet</servlet-class>-->
+        <jsp-file>/Implicit_Objects/configObject.jsp</jsp-file>
+        <init-param>
+            <param-name>password</param-name>
+            <param-value>Pass123</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NewServlet</servlet-name>
+        <url-pattern>/Implicit_Objects/config</url-pattern>
+    </servlet-mapping>
+    <context-param>
+        <param-name>user</param-name>
+        <param-value>admin</param-value>
+    </context-param>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

@@ -1,0 +1,22 @@
+<class>
+    <student>
+        <name>SPO</name>
+        <branch>CE</branch>
+    </student>
+    <student>
+        <name>AMG</name>
+        <branch>IT</branch>
+    </student>
+    <student>
+        <name>HFG</name>
+        <branch>ME</branch>
+    </student>
+    <student>
+        <name>LSY</name>
+        <branch>ICT</branch>
+    </student>
+    <student>
+        <name>AKD</name>
+        <branch>EE</branch>
+    </student>
+</class>
